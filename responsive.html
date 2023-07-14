@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure </h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a> Home</li>
+            <li><a href="#"></a>Tools</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About </li>
+            <li class="btn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./image/icon.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+           <div class="line"></div> 
+           <h1>A WONDERFUL GIFT</h1>
+           <a href="#" class="btn"> Learn More</a>
+
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+           <h1> Upcomming Event</h1> 
+           <div class="line"></div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="./image/image3.jpg" alt="">
+            <h4>great picture</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, pariatur!</p>
+            <a href="#" class="btn">learn more </a>
+          </div>  
+          <div class="col">
+            <img src="./image/image4.jpg" alt="">
+            <h4>great picture</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, pariatur!</p>
+            <a href="#" class="btn">learn more </a>
+          </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni velit dolorum excepturi nemo quasi natus quidem suscipit vitae harum ab.</p>
+            <a href="#" class="btn"> Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Tours And Destination </h1>
+                <div class="line"></div> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolorem eaque veritatis voluptatem, quae aspernatur totam voluptas cupiditate expedita!</p> 
+                <a href="#" class="btn"> Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./image/image5.jpg" alt="">
+                    <img src="./image/image6.jpg" alt="">
+                    <img src="./image/image7.jpg" alt="">
+                    <img src="./image/image8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ad molestias deserunt natus recusandae alias.</p>
+        <p>Copyright @ 2020 Outdoor Adventure</p>
+
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+</body>
+</html>
